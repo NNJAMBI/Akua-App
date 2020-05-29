@@ -11,3 +11,4 @@ var femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
 var dd = document.getElementById("day").value;
 var mm = document.getElementById("month").value;
 var yyyy = document.getElementById("year").value;
+var date = new Date(yy + "_" + mm + "_" + dd);
